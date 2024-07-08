@@ -1,0 +1,22 @@
+body div{
+    border: 3px solid red;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.box1{
+    background-image: linear-gradient(green,blue);
+}
+
+.box2{
+    background-image: linear-gradient(to right, red , pink);
+    background-image: linear-gradient(to bottom left, red , pink);
+}
+
+.box3{
+    background-image: linear-gradient(200deg,red, yellow);
+}
+
+.box4{
+    background-image: linear-gradient(to right, red, orange, yellow, green,blue, indigo,violet );
+}

@@ -1,0 +1,54 @@
+.circleOuter{
+    border: 3px solid red;
+    width: 700px;
+    height: 700px;
+    position: relative;
+    background-color: blueviolet;
+}
+
+.circleInner{
+    border: 3px solid gold;
+    width: 100px;
+    height: 100px;
+
+    position: absolute;
+
+    background-color: coral;
+
+    top: 0px;
+    left: 0px;
+    
+
+  animation: turningAround 3s ease 2 alternate 2s;
+  animation-direction: normal;
+
+
+    
+}
+
+@keyframes turningAround {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+
+    25% {
+        top: 0;
+        left: 595px;
+    }
+
+    50% {
+        top: 595px;
+        left: 595px;
+    }
+    
+    75% {
+        top: 595px;
+        left: 0;
+    }
+
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
